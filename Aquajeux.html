@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aquavie | AquaJeux</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+     <a href="index.html"><img src="logo (1).png" height="40"></a>
+    <a href="index.html">Accueil</a>
+    <a href="oceans.html">Océans</a>
+    <a href="ecosystemes.html">Écosystèmes</a>
+    <a href="faune.html">Faune</a>
+    <a href="flore.html">Flore</a>
+    <a href="menaces.html">Menaces</a>
+    <a href="solutions.html">Solutions</a>
+    <a href="Aquajeux.html">AquaJeux</a>
+    <a href="apropos.html">À propos</a>
+    <a href="contact.html">Contact</a>
+</nav>
+
+<section id="jeu">
+    <h2>🧠 AquaJeux : Memory des océans</h2>
+    <p>Retourne les cartes et trouve les paires pour protéger les océans.</p>
+
+    <p id="moves">Coups : 0</p>
+
+    <div class="memory-game" id="memory-game"></div>
+
+    <button id="restart-btn" onclick="startGame()">🔄 Rejouer</button>
+</section>
+    <!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Aquavie | AquaQuiz</title>
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
+</head>
+<body>
+
+<nav>
+    <a href="index.html" class="nav-logo"><img src="logo (1).png" alt="Aquavie Logo"></a>
+    <div class="nav-links">
+        <a href="index.html">Accueil</a>
+        <a href="oceans.html">Océans</a>
+        <a href="ecosystemes.html">Écosystèmes</a>
+        <a href="faune.html">Faune</a>
+        <a href="flore.html">Flore</a>
+        <a href="menaces.html">Menaces</a>
+        <a href="solutions.html">Solutions</a>
+        <a href="Aquajeux.html">AquaJeux</a>
+        <a href="apropos.html">À propos</a>
+        <a href="contact.html">Contact</a>
+    </div>
+</nav>
+
+<section class="kahoot-section">
+    <h2>🎯 AquaQuiz – Protégeons les océans</h2>
+    <p>Réponds aux questions et teste tes connaissances sur l’environnement aquatique.</p>
+
+    <div id="quiz-container">
+        <h3 id="question"></h3>
+
+        <div id="answers">
+            <button class="answer-btn" onclick="selectAnswer(0)"></button>
+            <button class="answer-btn" onclick="selectAnswer(1)"></button>
+            <button class="answer-btn" onclick="selectAnswer(2)"></button>
+            <button class="answer-btn" onclick="selectAnswer(3)"></button>
+        </div>
+
+        <p id="feedback"></p>
+
+        <button id="next-question" onclick="nextQuestion()">Question suivante</button>
+
+        <p id="score">Score : 0</p>
+    </div>
+</section>
+
+<footer>                   © 2025–2026 – Aquavie</footer>
+
+</body>
+</html>
+
+
